@@ -1,6 +1,7 @@
 galaxy_info:
   author: Daniele Marcocci <daniele.marcocci@par-tec.it>
-  description: simple test inventory
+  role_name: test
+  description: simple test role
   company: Par-Tec
 
   license: BSD
@@ -16,4 +17,4 @@ galaxy_info:
   galaxy_tags: []
 
 dependencies:
-  - { role: ioggstream.debug, when: execute_dependencies is defined and execute_dependencies | bool }
+  - { role: danielino.debug, when: execute_dependencies is defined and execute_dependencies | bool }
