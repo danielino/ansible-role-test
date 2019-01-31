@@ -1,13 +1,16 @@
 galaxy_info:
   author: Daniele Marcocci <daniele.marcocci@par-tec.it>
-  description: your description
+  description: simple test inventory
   company: Par-Tec
 
-  license: license (GPLv2, CC-BY, etc)
+  license: BSD
+
+  platforms:
+    - EL
 
   min_ansible_version: 2.4
 
   galaxy_tags: []
 
-dependencies: 
+dependencies:
   - { role: ioggstream.debug, when: execute_dependencies is defined and execute_dependencies | bool }
