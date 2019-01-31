@@ -1,5 +1,6 @@
----
-- hosts: localhost
-  remote_user: root
+- hosts: test
+  gather_facts: no
+  vars: 
+    execute_dependencies: false
   roles:
     - test
