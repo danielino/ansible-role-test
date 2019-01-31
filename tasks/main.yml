@@ -4,8 +4,3 @@
 
 - debug: msg="test"
 
-- name: import debug role
-  import_role:
-    name: ioggstream.debug
-
-
